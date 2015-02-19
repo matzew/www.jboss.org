@@ -152,13 +152,13 @@ Open the job page. E.g: https://jenkins.mw.lab.eng.bos.redhat.com/hudson/view/jb
 4.  Return to the 'status' page of the run
 5.  Selct 'keep this build forvever'
 6. Update the description to contain just the JIRA id (e.g. DEVELOPER-1234)
-7. Update https://jenkins.mw.lab.eng.bos.redhat.com/hudson/view/jboss.org/job/www.jboss.org/[this spreadsheet]
+7. Update [this spreadsheet](https://jenkins.mw.lab.eng.bos.redhat.com/hudson/view/jboss.org/job/www.jboss.org/)
   1. If the failure is already known, increment the occurances column and 'last failure' date.
   2. If the failure is new, add a new row to the spreadsheet
   
 When an issue is resolved:
 
-1. Mark the status as resolved in https://jenkins.mw.lab.eng.bos.redhat.com/hudson/view/jboss.org/job/www.jboss.org/[this spreadsheet]
+1. Mark the status as resolved in [this spreadsheet](https://jenkins.mw.lab.eng.bos.redhat.com/hudson/view/jboss.org/job/www.jboss.org/)
 2. Delete every CI run that failed with this issue.
 
 
